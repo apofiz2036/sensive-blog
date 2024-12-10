@@ -41,7 +41,6 @@ def serialize_tag_optimized(tag):
         'posts_with_tag': tag.count_tags
     }
 
-
 def serialize_tag(tag):
     return {
         'title': tag.title,
